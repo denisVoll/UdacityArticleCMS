@@ -17,11 +17,11 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    CLIENT_SECRET = "on38Q~nEl8bangcEBXO.CrvSNpf-pEWSUHDNRcF9"
+    CLIENT_SECRET = "zJC8Q~O748U~yAj8NuUiN1v~giLqhFtHw4JglbF."
  
     AUTHORITY = "https://login.microsoftonline.com/common"
 
-    CLIENT_ID = "e3a1457f-3fef-4bc4-899b-2b5ae6ab3748"
+    CLIENT_ID = "b2540384-f0e5-4d02-a9be-010782318bfb"
 
     REDIRECT_PATH = "/getAToken"
 
